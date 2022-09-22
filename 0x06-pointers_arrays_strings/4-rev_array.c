@@ -1,7 +1,7 @@
 #include "main.h"
 
 /***
-*  reverse_array - function that reverse content of array
+*  reverse_array - function reverse content of array
 *  @a: array
 *  @n: number of elements
 */
@@ -12,7 +12,7 @@ int tmp, index;
 for (index = n - 1; index > n / 2; index--)
 {
 tmp = a[n - 1 - index];
-a[n - 1 - index] = a [index];
+a[n - 1 - index] = a[index];
 a[index] = tmp;
 }
 }
