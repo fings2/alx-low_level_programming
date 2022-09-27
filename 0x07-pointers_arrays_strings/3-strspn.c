@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _strspn - Entry point
- * @s: input
- * @accept: input
- * return: Always 0
+ * _strspn - Gets the length of a prefix substring.
+ * @s: The string to be searched.
+ * @accept: The prefix to be measured.
+ *
+ * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
